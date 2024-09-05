@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Sep  3 20:37:24 2024
+Thu Sep  5 16:55:18 2024
 
 
 Command Line:  C:\lscc\radiant\2024.1\ispfpga\bin\nt64\synthesis.exe -f lab1RP_impl_1_lattice.synproj -logfile lab1RP_impl_1_lattice.srp -gui -msgset C:/Users/avo/Desktop/Lab1/lab1RP/promote.xml 
@@ -74,6 +74,7 @@ Mixed language design
 Verilog design file = C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v
 Verilog design file = C:/Users/avo/Desktop/Lab1/lab1RP/source/impl_1/lab1_av.sv
 Verilog design file = C:/Users/avo/Desktop/Lab1/lab1RP/source/impl_1/seven_seg_display.sv
+Verilog design file = C:/Users/avo/Desktop/Lab1/lab1RP/source/impl_1/ledDisplay.sv
 VHDL library = pmi
 VHDL design file = C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.vhd
 The -r option is OFF. [ Remove LOC Properties is OFF. ]
@@ -126,6 +127,7 @@ INFO <35901328> - synthesis: c:/lscc/radiant/2024.1/ip/pmi/pmi_ram_dq_be.v(45): 
 INFO <35901328> - synthesis: c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.v(17): analyzing included file c:/lscc/radiant/2024.1/ip/pmi/pmi_dsp.v. VERI-1328
 Analyzing Verilog file c:/users/avo/desktop/lab1/lab1rp/source/impl_1/lab1_av.sv. VERI-1482
 Analyzing Verilog file c:/users/avo/desktop/lab1/lab1rp/source/impl_1/seven_seg_display.sv. VERI-1482
+Analyzing Verilog file c:/users/avo/desktop/lab1/lab1rp/source/impl_1/leddisplay.sv. VERI-1482
 Analyzing VHDL file c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd. VHDL-1481
 Analyzing VHDL file c:/lscc/radiant/2024.1/ip/pmi/pmi_ice40up.vhd
 
@@ -134,8 +136,9 @@ INFO <35921504> - synthesis: The default VHDL library search path is now "C:/Use
 Top module language type = Verilog.
 Top module name (Verilog, mixed language): top
 INFO <35901018> - synthesis: c:/users/avo/desktop/lab1/lab1rp/source/impl_1/lab1_av.sv(6): compiling module top. VERI-1018
+INFO <35901018> - synthesis: c:/users/avo/desktop/lab1/lab1rp/source/impl_1/leddisplay.sv(6): compiling module ledDisplay. VERI-1018
 INFO <35901018> - synthesis: C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): compiling module HSOSC. VERI-1018
-WARNING <35901209> - synthesis: c:/users/avo/desktop/lab1/lab1rp/source/impl_1/lab1_av.sv(33): expression size 32 truncated to fit in target size 25. VERI-1209
+WARNING <35901209> - synthesis: c:/users/avo/desktop/lab1/lab1rp/source/impl_1/leddisplay.sv(32): expression size 32 truncated to fit in target size 25. VERI-1209
 INFO <35901018> - synthesis: c:/users/avo/desktop/lab1/lab1rp/source/impl_1/seven_seg_display.sv(6): compiling module sevenSeg. VERI-1018
                                                          
 
@@ -181,22 +184,21 @@ Number of even-length carry chains : 0
 
 ################### Begin Clock Report ######################
 Clock Nets
-Number of Clocks: 1
-  Net : int_osc, loads : 0
+Number of Clocks: 0
 Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : n376, loads : 28
+  Net : s2/n172, loads : 28
+  Net : s2/int_osc, loads : 26
   Net : s_c_3, loads : 8
   Net : s_c_2, loads : 8
   Net : s_c_1, loads : 8
   Net : s_c_0, loads : 8
-  Net : led_c, loads : 3
-  Net : counter[24], loads : 2
-  Net : counter[23], loads : 2
-  Net : counter[22], loads : 2
-  Net : counter[21], loads : 2
+  Net : s2/led_c_2, loads : 2
+  Net : s2/counter[4], loads : 2
+  Net : s2/counter[10], loads : 2
+  Net : s2/counter[20], loads : 2
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -213,6 +215,6 @@ Peak Memory Usage: 85 MB
 
 --------------------------------------------------------------
 Total CPU Time: 1 secs 
-Total REAL Time: 0 secs 
+Total REAL Time: 2 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: feb9344985a397f98bb0ca0084791bdde49f267
+Checksum -- synthesis -- netlist: d57e779b570c193a20ade4bdd2b691aa28bc6f5b

@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
-    <Task name="Export">
+    <Task name="PAR">
         <Message>
-            <ID>1081100</ID>
-            <Severity>1</Severity>
-            <Dynamic>Bitstream authenticated.</Dynamic>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>clk</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>clk</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>clk</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>clk</Dynamic>
         </Message>
     </Task>
     <Task name="Synthesis">
@@ -356,6 +371,14 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
+            <Dynamic>c:/users/avo/desktop/lab1/lab1rp/source/impl_1/leddisplay.sv(6): </Dynamic>
+            <Dynamic>ledDisplay</Dynamic>
+            <Navigation>c:/users/avo/desktop/lab1/lab1rp/source/impl_1/leddisplay.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
             <Dynamic>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): </Dynamic>
             <Dynamic>HSOSC</Dynamic>
             <Navigation>C:/lscc/radiant/2024.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v</Navigation>
@@ -364,11 +387,11 @@
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/avo/desktop/lab1/lab1rp/source/impl_1/lab1_av.sv(33): </Dynamic>
+            <Dynamic>c:/users/avo/desktop/lab1/lab1rp/source/impl_1/leddisplay.sv(32): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>25</Dynamic>
-            <Navigation>c:/users/avo/desktop/lab1/lab1rp/source/impl_1/lab1_av.sv</Navigation>
-            <Navigation>33</Navigation>
+            <Navigation>c:/users/avo/desktop/lab1/lab1rp/source/impl_1/leddisplay.sv</Navigation>
+            <Navigation>32</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -401,26 +424,11 @@
             <Dynamic>clk</Dynamic>
         </Message>
     </Task>
-    <Task name="PAR">
+    <Task name="Export">
         <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>clk</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>clk</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>clk</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>clk</Dynamic>
+            <ID>1081100</ID>
+            <Severity>1</Severity>
+            <Dynamic>Bitstream authenticated.</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

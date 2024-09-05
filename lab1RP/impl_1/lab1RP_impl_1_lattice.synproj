@@ -41,6 +41,7 @@
 -lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.vhd"
 -sver "C:/Users/avo/Desktop/Lab1/lab1RP/source/impl_1/lab1_av.sv"
 "C:/Users/avo/Desktop/Lab1/lab1RP/source/impl_1/seven_seg_display.sv"
+"C:/Users/avo/Desktop/Lab1/lab1RP/source/impl_1/ledDisplay.sv"
 
 
 -path "C:/Users/avo/Desktop/Lab1/lab1RP"

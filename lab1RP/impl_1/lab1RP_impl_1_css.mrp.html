@@ -49,7 +49,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2024.1.0.34.2
-Mapped on: Tue Sep  3 20:37:29 2024
+Mapped on: Thu Sep  5 16:55:24 2024
 
 <A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
 
@@ -86,24 +86,25 @@ Command line:   map -pdc C:/Users/avo/Desktop/Lab1/lab1RP/lab1.pdc -i
    Number of EBRs:             0 out of 30 (0%)
    Number of PLLs:             0 out of 1 (0%)
    Number of Clocks:  1
-      Net int_osc: 14 loads, 14 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
+      Net s2.int_osc: 14 loads, 14 rising, 0 falling (Driver: Pin
+     s2.hf_osc/CLKHF)
    Number of Clock Enables:  2
-      Net VCC_net: 1 loads, 0 SLICEs
-      Net n376: 1 loads, 1 SLICEs
+      Net seg_pad[0].vcc: 1 loads, 0 SLICEs
+      Net s2.n172: 1 loads, 1 SLICEs
    Number of LSRs:  2
-      Net n376: 13 loads, 13 SLICEs
-      Net n436: 1 loads, 1 SLICEs
+      Net s2.n172: 13 loads, 13 SLICEs
+      Net s2.n232: 1 loads, 1 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net n376: 16 loads
+      Net s2.n172: 16 loads
       Net s_c_0: 8 loads
       Net s_c_1: 8 loads
       Net s_c_2: 8 loads
       Net s_c_3: 8 loads
-      Net led_c: 3 loads
-      Net VCC_net: 3 loads
-      Net counter[10]: 2 loads
-      Net counter[19]: 2 loads
-      Net counter[20]: 2 loads
+      Net led_c_2: 3 loads
+      Net seg_pad[0].vcc: 3 loads
+      Net s2.counter[10]: 2 loads
+      Net s2.counter[19]: 2 loads
+      Net s2.counter[20]: 2 loads
 
    Number of warnings:  2
    Number of criticals: 0
@@ -151,20 +152,20 @@ WARNING &lt;71003020&gt; - map: Top module port &apos;clk&apos; does not connect
 
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
-Block i1 was optimized away.
+Block s_pad[0].vlo_inst was optimized away.
 
 <A name="mrp_osc"></A><B><U><big>OSC Summary</big></U></B>
 
 OSC 1:                                 Pin/Node Value
-  OSC Instance Name:                            hf_osc
-  Power UP:                            NODE     VCC_net
-  Enable Signal:                       NODE     VCC_net
-  OSC Output:                          NODE     int_osc
+  OSC Instance Name:                            s2/hf_osc
+  Power UP:                            NODE     seg_pad[0].vcc
+  Enable Signal:                       NODE     seg_pad[0].vcc
+  OSC Output:                          NODE     s2.int_osc
   DIV Setting:                                  00
 
 <A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
 
-Instance Name: hf_osc
+Instance Name: s2/hf_osc
          Type: HFOSC
 
 <A name="mrp_consum"></A><B><U><big>Constraint Summary</big></U></B>
@@ -177,7 +178,7 @@ Instance Name: hf_osc
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
    Peak Memory Usage: 64 MB
-Checksum -- map: af05371d5881cbd3dfb32eb64aa55caf5e3514fc
+Checksum -- map: f028a624a32699f9b296eb69d02aa1a6ecf1222c
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995
      AT&amp;T Corp.   All rights reserved.

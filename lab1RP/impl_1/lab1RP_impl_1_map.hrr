@@ -10,11 +10,21 @@ Report for cell top
                                 PFUREG	         26        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                              sevenSeg	          1        17.0
+                            ledDisplay	          1        83.0
+                              sevenSeg	          1        14.9
+---------------------------------------------------
+Report for cell ledDisplay
+   Instance path: top/s2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         39        83.0
+                               LUTGATE	         13        61.9
+                                LUTCCU	         26        100.0
+                                PFUREG	         26        100.0
 ---------------------------------------------------
 Report for cell sevenSeg
    Instance path: top/s1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	          8        17.0
-                               LUTGATE	          8        38.1
+                                  LUT4	          7        14.9
+                               LUTGATE	          7        33.3

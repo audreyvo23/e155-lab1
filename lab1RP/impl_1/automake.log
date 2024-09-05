@@ -28,7 +28,7 @@ Changing speed to m;   changing temperature to -40
 STA Runtime and Peak Memory Usage :
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 101 MB
+Peak Memory Usage: 100 MB
 
- 0.621909s wall, 0.468750s user + 0.093750s system = 0.562500s CPU (90.4%)
+ 0.604254s wall, 0.531250s user + 0.031250s system = 0.562500s CPU (93.1%)
 

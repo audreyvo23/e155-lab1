@@ -11,12 +11,23 @@ I/O cells:      14
                                LUT4        20          100.0
                                  OB        10          100.0
 SUB MODULES
+                         ledDisplay         1
                            sevenSeg         1
-                              TOTAL        75
+                              TOTAL        76
+----------------------------------------------------------------------
+Report for cell ledDisplay.v1
+Instance Path : s2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        13          100.0
+                            FD1P3XZ        26          100.0
+                         HSOSC_CORE         1          100.0
+                               LUT4        13           65.0
+                              TOTAL        53
 ----------------------------------------------------------------------
 Report for cell sevenSeg.v1
 Instance Path : s1
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4         8           40.0
-                              TOTAL         8
+                               LUT4         7           35.0
+                              TOTAL         7

@@ -1,0 +1,10 @@
+#Start recording tcl command: 9/2/2024 20:36:35
+#Project Location: C:/Users/avo/Desktop/Lab1/lab1RP; Project name: lab1RP
+prj_open "C:/Users/avo/Desktop/Lab1/lab1RP/lab1RP.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/5/2024 16:10:45
