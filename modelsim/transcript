@@ -1,0 +1,73 @@
+# Compile of lab1test_av.sv was successful.
+vsim -gui work.lab1_tb
+# vsim -gui work.lab1_tb 
+# Start time: 19:52:43 on Sep 03,2024
+# //  ModelSim DE-64 2022.3 Jul 18 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.lab1_tb
+# Loading work.top
+add wave -position end  sim:/lab1_tb/clk
+add wave -position end  sim:/lab1_tb/reset
+add wave -position end  sim:/lab1_tb/s
+add wave -position end  sim:/lab1_tb/led
+add wave -position end  sim:/lab1_tb/led_expected
+add wave -position end  sim:/lab1_tb/seg
+add wave -position end  sim:/lab1_tb/seg_expected
+add wave -position end  sim:/lab1_tb/vectornum
+add wave -position end  sim:/lab1_tb/errors
+add wave -position end  sim:/lab1_tb/testvectors
+run 100
+# Compile of lab1test_av.sv was successful.
+# Load canceled
+# Compile of lab1test_av.sv was successful.
+vsim -gui work.top
+# End time: 20:34:44 on Sep 03,2024, Elapsed time: 0:42:01
+# Errors: 0, Warnings: 4
+# vsim -gui work.top 
+# Start time: 20:34:44 on Sep 03,2024
+# Loading sv_std.std
+# Loading work.top
+add wave -position end  sim:/top/clk
+add wave -position end  sim:/top/s
+add wave -position end  sim:/top/led
+add wave -position end  sim:/top/seg
+add wave -position end  sim:/top/int_osc
+add wave -position end  sim:/top/pulse
+add wave -position end  sim:/top/led_state
+add wave -position end  sim:/top/counter
+run 100
+# Compile of lab1test_av.sv was successful.
+vsim -gui work.lab1_tb
+# End time: 22:06:55 on Sep 03,2024, Elapsed time: 1:32:11
+# Errors: 0, Warnings: 2
+# vsim -gui work.lab1_tb 
+# Start time: 22:06:55 on Sep 03,2024
+# Loading sv_std.std
+# Loading work.lab1_tb
+# Loading work.top
+add wave -position end  sim:/lab1_tb/testvectors
+add wave -position end  sim:/lab1_tb/errors
+add wave -position end  sim:/lab1_tb/vectornum
+add wave -position end  sim:/lab1_tb/clk
+add wave -position end  sim:/lab1_tb/reset
+add wave -position end  sim:/lab1_tb/s
+add wave -position end  sim:/lab1_tb/led
+add wave -position end  sim:/lab1_tb/led_expected
+add wave -position end  sim:/lab1_tb/seg
+add wave -position end  sim:/lab1_tb/seg_expected
+add wave -position end  sim:/lab1_tb/vectornum
+add wave -position end  sim:/lab1_tb/errors
+add wave -position end  sim:/lab1_tb/testvectors
+run 100

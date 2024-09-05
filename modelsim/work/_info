@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2022.3 2022.07, Jul 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files/Modelsim/examples
+vlab1_tb
+Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z1 !s110 1725426407
+!i10b 1
+!s100 GjPhon5BVBX^FY7ET=EMb3
+ILjYk[KeF@jgVWH7bDRmHg1
+S1
+Z2 dC:/Users/avo/Desktop/Lab1/modelsim
+Z3 w1725420874
+Z4 8C:/Users/avo/Desktop/Lab1/modelsim/lab1test_av.sv
+Z5 FC:/Users/avo/Desktop/Lab1/modelsim/lab1test_av.sv
+!i122 45
+L0 79 63
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OP;L;2022.3;75
+r1
+!s85 0
+31
+Z8 !s108 1725426407.000000
+Z9 !s107 C:/Users/avo/Desktop/Lab1/modelsim/lab1test_av.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/avo/Desktop/Lab1/modelsim/lab1test_av.sv|
+!i113 1
+Z11 o-work work -sv
+Z12 tCvgOpt 0
+vthree_led
+R0
+!s110 1725420853
+!i10b 1
+!s100 nGU^`@F0<Ii1R_`[2ceI13
+I6=ic4f]QJR]I@UPWUh;iE0
+S1
+R2
+w1725420849
+R4
+R5
+!i122 43
+Z13 L0 6 68
+R6
+R7
+r1
+!s85 0
+31
+!s108 1725420853.000000
+R9
+R10
+!i113 1
+R11
+R12
+vtop
+R0
+R1
+!i10b 1
+!s100 XFJEN<4maOZLjAH2LTdc[1
+II@_0Gee`@Z`A`Eo4HBhlY0
+S1
+R2
+R3
+R4
+R5
+!i122 45
+R13
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
